@@ -1,1 +1,1 @@
-Dataset is stored in this directory.
+users.json dataset will be stored in this directory.
