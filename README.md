@@ -17,7 +17,17 @@ Ensure that you have the following installed:
 
 ### Running the Application
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/himanshunagapure/fastapi-dockerized-app.git
    cd docker-fastapi-test
+```
+
+Swagger UI: '/' response
+<img width="446" alt="fastapi1" src="https://github.com/user-attachments/assets/e17c816b-6e4e-4ee5-81c1-d2a53d0b3b4e" />
+
+Swagger UI: Create User POST
+<img width="371" alt="fastapi2" src="https://github.com/user-attachments/assets/1ac45c1d-7c0c-4ca3-86f7-ffa584102d47" />
+
+SWagger UI: Users List
+<img width="266" alt="fastapi3" src="https://github.com/user-attachments/assets/750b055c-abf2-41bf-8e07-bc5f77b034da" />
