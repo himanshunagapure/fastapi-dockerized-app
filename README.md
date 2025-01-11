@@ -28,8 +28,8 @@ This project is dockerized using `Dockerfile` and `docker-compose.yml`, and it s
 - requirements.txt: Lists the Python dependencies.
 
 - .gitignore: Specifies files to be excluded from version control.
-## Setup Instructions
-### Prerequisites
+---
+## Setup Instructions ### Prerequisites
 Ensure that you have the following installed:
 - Docker
 - Docker Compose
