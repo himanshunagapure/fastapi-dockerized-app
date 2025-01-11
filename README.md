@@ -58,7 +58,7 @@ To stop the containers, run
    ```bash
    docker-compose down
    ```
-
+---
 Data Persistence
 
 The user data is stored in a users.json file inside the data directory. The data persists even when the containers are stopped and restarted.
@@ -72,6 +72,7 @@ Stop the containers using docker-compose down.
 Restart using docker-compose up.
 
 Check the /users endpoint to verify the previously added data still exists.
+---
 
 Project Files Explained
 
@@ -90,16 +91,19 @@ app/data/info.txt: Placeholder file in the data directory.
 requirements.txt: Lists the Python dependencies.
 
 .gitignore: Specifies files to be excluded from version control.
+---
 
 Troubleshooting
 
 If you see a port conflict, ensure no other application is using port 8000.
 
 Run docker-compose down before rebuilding the image.
+---
 
 Contributing
 
 Feel free to fork the repository and submit a pull request for improvements or additional features.
+---
 
 License
 
