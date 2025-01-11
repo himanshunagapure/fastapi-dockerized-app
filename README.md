@@ -8,8 +8,30 @@ This is a simple FastAPI application that exposes three endpoints:
 
 This project is dockerized using `Dockerfile` and `docker-compose.yml`, and it stores the user data in a persistent `users.json` file.
 
-### Project Structure
+## Project Structure
 <img width="343" alt="project-structure" src="https://github.com/user-attachments/assets/3349194b-3060-41d4-9aac-da4603f95326" />
+
+---
+
+### Project Files Explained
+
+- Dockerfile: Contains instructions for building the Docker image.
+
+- docker-compose.yml: Defines the services for running the application and ensures the data directory is mounted for persistence.
+
+- app/main.py: Contains the FastAPI application logic.
+
+- app/schema.py: Defines the data models.
+
+- app/services.py: Contains business logic.
+
+- app/data/info.txt: Placeholder file in the data directory.
+
+- requirements.txt: Lists the Python dependencies.
+
+- .gitignore: Specifies files to be excluded from version control.
+
+---
 
 ## Setup Instructions
 
@@ -59,52 +81,35 @@ To stop the containers, run
    docker-compose down
    ```
 ---
-Data Persistence
+
+## Data Persistence
 
 The user data is stored in a users.json file inside the data directory. The data persists even when the containers are stopped and restarted.
 
-To test data persistence:
+### To test data persistence:
 
-Run the app and add a user via the /users POST endpoint.
+1. Run the app and add a user via the /users POST endpoint.
 
-Stop the containers using docker-compose down.
+2. Stop the containers using docker-compose down.
 
-Restart using docker-compose up.
+3. Restart using docker-compose up.
 
-Check the /users endpoint to verify the previously added data still exists.
+4. Check the /users endpoint to verify the previously added data still exists.
+
 ---
 
-Project Files Explained
-
-Dockerfile: Contains instructions for building the Docker image.
-
-docker-compose.yml: Defines the services for running the application and ensures the data directory is mounted for persistence.
-
-app/main.py: Contains the FastAPI application logic.
-
-app/schema.py: Defines the data models.
-
-app/services.py: Contains business logic.
-
-app/data/info.txt: Placeholder file in the data directory.
-
-requirements.txt: Lists the Python dependencies.
-
-.gitignore: Specifies files to be excluded from version control.
----
-
-Troubleshooting
-
-If you see a port conflict, ensure no other application is using port 8000.
-
-Run docker-compose down before rebuilding the image.
----
-
-Contributing
+## Contributing
 
 Feel free to fork the repository and submit a pull request for improvements or additional features.
+
 ---
 
-License
+## License
 
 This project is licensed under the MIT License.
+
+---
+
+## Author
+
+Himanshu Nagapure
