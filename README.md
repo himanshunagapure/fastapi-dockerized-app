@@ -100,12 +100,6 @@ Feel free to fork the repository and submit a pull request for improvements or a
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
 ## Author
 
 Himanshu Nagapure
