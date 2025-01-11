@@ -11,8 +11,6 @@ This project is dockerized using `Dockerfile` and `docker-compose.yml`, and it s
 ## Project Structure
 <img width="343" alt="project-structure" src="https://github.com/user-attachments/assets/3349194b-3060-41d4-9aac-da4603f95326" />
 
----
-
 ### Project Files Explained
 
 - Dockerfile: Contains instructions for building the Docker image.
@@ -34,7 +32,6 @@ This project is dockerized using `Dockerfile` and `docker-compose.yml`, and it s
 ---
 
 ## Setup Instructions
-
 ### Prerequisites
 Ensure that you have the following installed:
 - Docker
